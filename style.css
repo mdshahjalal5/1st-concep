@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.text-center{
+    text-align: center;
+}
 .menu-container{
     display: flex;
     justify-content: space-around;
@@ -26,3 +29,122 @@
     color: blue;
     cursor: pointer;
 }
+/* banner css  */
+.banner-container{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 100vh;
+    border: 3px solid red;
+    background: #000;
+    color: white;
+}
+
+.banner-info{
+    margin-left: 50px;
+}
+.banner-text{
+    font-size: 20px;
+    color: red;
+}
+.banner-title{
+    font-size:64px;
+    margin-top: 10px;
+}
+.banner-text2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* service start  */
+.section-two{
+    margin:60px 0;
+}
+.section-two h2{
+    margin-bottom: 50px;
+}
+.card-container{
+    display: flex;
+    justify-content:space-around;
+}
+.service-heading{
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+}
+.card{
+    width: 350px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 8px grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    /* height: 200px; */
+    font-size: 20px;
+}
+.card:hover {
+    border: 1px solid red;
+    margin-top: -20px;
+
+}
+
+.card img{
+    height: 30px;
+}
+.heading{
+    margin-bottom: 30px;
+
+}
+/* about section  */
+.about-container{
+    margin-top: 40px;
+    height: 100vh;
+    background: #000;
+    color: white;
+    display: flex;
+
+}
+
+.about-left{
+    display: flex;
+}
+.about-left img{
+    width: 50%;
+    height: 70%;
+    transform: skewY(-15deg);
+}
+.about-container li{
+    list-style-type: none;
+    /* margin-left: 5; */
+}
+.about-right{
+    margin-left: 10px;
+}
+
+/* workout start  */
+.work-out{
+    background-image: url(/shape/Group_33094_1.png);
+    background-position: center ;
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.work-out button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.work-out button:hover{
+    border: 1px solid red;
+    color: grey;
+    padding:  15px 25px;
+    /* font-size: 20px; */
+}
+/* workout end */
